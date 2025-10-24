@@ -19,7 +19,7 @@ export default async function PokemonDetail({ params }: Props) {
       <p>Altura: {pokemon.height}</p>
 
       <Link href="/" style={{ marginTop: "1rem", display: "inline-block" }}>
-        ← Volver a la lista
+        Volver a la lista
       </Link>
     </div>
   );
