@@ -7,7 +7,7 @@ import Pagination from "../components/Pagination";
 
 export default function HomePage() {
   const [page, setPage] = useState(0);
-  const limit = 30;
+  const limit = 20;
   const offset = page * limit+251;
 
   const { data, isLoading, error } = usePokemons(limit, offset);

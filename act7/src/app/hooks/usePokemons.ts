@@ -8,3 +8,4 @@ export function usePokemons(limit: number, offset: number) {
     placeholderData: (prev) => prev, 
   });
 }
+  
